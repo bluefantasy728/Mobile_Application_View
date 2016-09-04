@@ -244,11 +244,11 @@ a{text-decoration: none;}
 }
 #score_tag .tag_area{
 	overflow: hidden;
-	padding-top: 0.55rem;
+	padding-top: 0.4rem;
 }
 #score_tag .tag_area span{
 	float: left;
-	margin: 0.3rem;
+	margin: 0.2rem;
 	padding: 0.5rem 20px;
 	border: 1px solid #999;
 	border-radius: 1rem;
@@ -312,7 +312,7 @@ a{text-decoration: none;}
 	text-align: center;
 	-webkit-transition: 0.8s opacity ease;
 	transition: 0.5s opacity ease;
-	font-size: 24px;
+	font-size: 0.9rem;
 	opacity: 0;
 }
 .tip_alert.warning{

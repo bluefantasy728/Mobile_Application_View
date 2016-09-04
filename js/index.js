@@ -139,7 +139,7 @@ function tipAlert(obj,comment){
 	obj.classList.add('warning');
 	obj.innerHTML = comment;
 	addEvent(obj,'animationend',noScore);			
-	addEvent(obj,'webkitAnimationEnd',noScore);
+	addEvent(obj,'WebkitAnimationEnd',noScore);
 }
 
 //评分系统和标签

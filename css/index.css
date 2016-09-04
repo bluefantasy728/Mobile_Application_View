@@ -248,11 +248,11 @@ a{text-decoration: none;}
 }
 #score_tag .tag_area span{
 	float: left;
-	margin: 0.35rem;
-	padding: 15px 20px;
+	margin: 0.3rem;
+	padding: 0.5rem 20px;
 	border: 1px solid #999;
-	border-radius: 30px;
-	font: 26px/1 "微软雅黑";
+	border-radius: 1rem;
+	font: 1rem/1 "微软雅黑";
 }
 #score_tag .tag_area span.active{
 	color: #fff;
@@ -320,14 +320,14 @@ a{text-decoration: none;}
 	animation: 0.08s commentShake 10 alternate;
 }
 #main .submit_score, #over button{
-	width: 600px;height: 80px;
+	width: 600px;height: 2rem;
 	text-align: center;
 	border-radius: 5px;
 	position: absolute;
 	bottom: 0.4rem;left: 20px;
 	background: #3c9bbb;
 	color: #FFFFFF;
-	font: 26px/1 "微软雅黑";
+	font: 1rem/1 "微软雅黑";
 	box-sizing: border-box;
 }
 #main i{

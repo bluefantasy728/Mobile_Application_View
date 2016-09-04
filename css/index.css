@@ -1,4 +1,5 @@
-body{margin: 0;padding: 0;font-family: "microsoft yahei";font-size: 26px;color: #666;position: relative;height: 1137px;
+html{font-size: 26px;}
+body{margin: 0;padding: 0;font-family: "microsoft yahei";font-size: 26px;color: #666;position: relative;height: 1200px;
 }
 ul,li{padding: 0;margin: 0;list-style: none;}
 h1,h2,h3,dl,p{padding: 0;margin: 0;}
@@ -165,7 +166,7 @@ a{text-decoration: none;}
 /*欢迎页*/
 /*首页*/
 #tab_pic{
-	width: 100%;height: 342px;
+	width: 100%;height: 33%;
 	overflow: hidden;
 	position: relative;
 }
@@ -209,21 +210,27 @@ a{text-decoration: none;}
 	background: #fff;
 }
 #score{
-	width: 100%;height: 330px;
-	padding: 30px;
+	width: 100%;height: 27%;
+	padding: 0.8rem;
 	border-bottom: 1px solid #999;
 	box-sizing: border-box;
 	transition: 0.5s;
 }
+#score_list{
+	margin: 0.2rem 0 0 0.7rem;
+	height: 80%;
+}
 #score_list li{
-	padding: 20px 0;
+	padding: 0.5rem 0;
+	height: 33%;
+	box-sizing: border-box;
 }
 #score_list dl{
 	overflow: hidden;
 }
 #score_list dt{
 	float: left;
-	margin: 0 20px;
+	margin: 0 0.8rem;
 }
 #score_list dd{
 	width: 38px;height: 36px;
@@ -233,16 +240,15 @@ a{text-decoration: none;}
 	overflow: hidden;
 }
 #score_tag{
-	
-	padding: 20px;
+	padding: 0.7rem;
 }
 #score_tag .tag_area{
 	overflow: hidden;
-	padding-top: 15px;
+	padding-top: 0.55rem;
 }
 #score_tag .tag_area span{
 	float: left;
-	margin: 10px;
+	margin: 0.35rem;
 	padding: 15px 20px;
 	border: 1px solid #999;
 	border-radius: 30px;
@@ -318,7 +324,7 @@ a{text-decoration: none;}
 	text-align: center;
 	border-radius: 5px;
 	position: absolute;
-	bottom: 20px;left: 20px;
+	bottom: 0.4rem;left: 20px;
 	background: #3c9bbb;
 	color: #FFFFFF;
 	font: 26px/1 "微软雅黑";
